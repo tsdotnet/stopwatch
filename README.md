@@ -4,7 +4,7 @@
 ![npm-publish](https://github.com/tsdotnet/stopwatch/workflows/npm-publish/badge.svg)
 [![npm version](https://img.shields.io/npm/v/@tsdotnet/stopwatch.svg?style=flat-square)](https://www.npmjs.com/package/@tsdotnet/stopwatch)
 
-
+A stopwatch class with lap timing and easy to use static methods.  Useful for diagnostics.
 
 ## Docs
 

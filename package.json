@@ -1,13 +1,22 @@
 {
   "name": "@tsdotnet/stopwatch",
   "version": "1.0.0",
-  "description": "",
+  "description": "A stopwatch class with lap timing and easy to use static methods.  Useful for diagnostics.",
   "author": "electricessence",
   "license": "MIT",
   "types": "dist/Stopwatch.d.ts",
   "main": "dist/Stopwatch.js",
   "module": "dist-esm/Stopwatch.js",
-  "keywords": [],
+  "keywords": [
+    "stopwatch",
+    "time",
+    "timer",
+    "lap",
+    "start",
+    "stop",
+    "elasped",
+    "timespan"
+  ],
   "scripts": {
     "build:dist": "rimraf dist/* && copyfiles -u 1 src/**/*.d.ts dist && tsc",
     "build:dist-esm": "rimraf dist-esm/* && tsc -p tsconfig.esm.json",
