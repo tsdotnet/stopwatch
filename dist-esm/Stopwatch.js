@@ -1,3 +1,7 @@
+/*!
+ * @author electricessence / https://github.com/electricessence/
+ * @license MIT
+ */
 import TimeSpan from '@tsdotnet/date-time/dist/TimeSpan';
 /**
  * @packageDocumentation

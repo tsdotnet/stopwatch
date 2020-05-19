@@ -1,6 +1,10 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 const tslib_1 = require("tslib");
+/*!
+ * @author electricessence / https://github.com/electricessence/
+ * @license MIT
+ */
 const TimeSpan_1 = tslib_1.__importDefault(require("@tsdotnet/date-time/dist/TimeSpan"));
 /**
  * @packageDocumentation

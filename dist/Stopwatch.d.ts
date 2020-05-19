@@ -2,8 +2,8 @@
  * @author electricessence / https://github.com/electricessence/
  * @license MIT
  */
-import Timer from './Timer';
 import TimeSpan from '@tsdotnet/date-time/dist/TimeSpan';
+import Timer from './Timer';
 /**
  * @packageDocumentation
  * @module date-time
