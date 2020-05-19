@@ -3,10 +3,6 @@
  * @license MIT
  */
 import TimeSpan from '@tsdotnet/date-time/dist/TimeSpan';
-/**
- * @packageDocumentation
- * @module date-time
- */
 export default class Stopwatch {
     constructor() {
         this._startTimeStamp = NaN;

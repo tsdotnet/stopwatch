@@ -4,10 +4,6 @@
  */
 import TimeSpan from '@tsdotnet/date-time/dist/TimeSpan';
 import Timer from './Timer';
-/**
- * @packageDocumentation
- * @module date-time
- */
 export default class Stopwatch implements Timer {
     private _startTimeStamp;
     private _elapsed;

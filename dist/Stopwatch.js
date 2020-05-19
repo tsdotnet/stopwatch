@@ -6,10 +6,6 @@ const tslib_1 = require("tslib");
  * @license MIT
  */
 const TimeSpan_1 = tslib_1.__importDefault(require("@tsdotnet/date-time/dist/TimeSpan"));
-/**
- * @packageDocumentation
- * @module date-time
- */
 class Stopwatch {
     constructor() {
         this._startTimeStamp = NaN;
