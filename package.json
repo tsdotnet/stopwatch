@@ -62,7 +62,7 @@
     "typescript": "^3.9.2"
   },
   "dependencies": {
-    "@tsdotnet/date-time": "^1.0.7",
+    "@tsdotnet/date-time": "^1.0.8",
     "tslib": "^2.0.0"
   }
 }
