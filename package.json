@@ -61,7 +61,7 @@
     "typescript": "^3.9.3"
   },
   "dependencies": {
-    "@tsdotnet/date-time": "^1.0.14",
+    "@tsdotnet/date-time": "^1.0.15",
     "tslib": "^2.0.0"
   }
 }
