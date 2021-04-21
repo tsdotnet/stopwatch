@@ -17,7 +17,7 @@
     "elapsed"
   ],
   "scripts": {
-    "build:dist": "rimraf dist/* && copyfiles -u 1 src/**/*.d.ts dist && tsc",
+    "build:dist": "rimraf dist/* && tsc && copyfiles -u 1 src/**/*.d.ts dist",
     "build:dist-esm": "rimraf dist-esm/* && tsc -p tsconfig.esm.json",
     "build": "pnpm i && run-p build:*",
     "bump": "npm run precommit && npm version patch",
@@ -60,7 +60,7 @@
     "typescript": "^4.2.4"
   },
   "dependencies": {
-    "@tsdotnet/date-time": "^1.0.17",
+    "@tsdotnet/date-time": "^1.0.22",
     "tslib": "^2.2.0"
   }
 }
