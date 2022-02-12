@@ -6,7 +6,7 @@ import TimeSpan from '@tsdotnet/date-time/dist/TimeSpan';
 import Timer from './Timer';
 
 export default class Stopwatch
-	implements Timer
+implements Timer
 {
 
 	private _startTimeStamp: number = NaN;
