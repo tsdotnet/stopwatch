@@ -8,4 +8,4 @@ A stopwatch class with lap timing and easy to use static methods.  Useful for di
 
 ## Docs
 
-[tsdotnet.github.io/stopwatch](https://tsdotnet.github.io/stopwatch/classes/stopwatch.default.html)
+[tsdotnet.github.io/stopwatch](https://tsdotnet.github.io/stopwatch/)
