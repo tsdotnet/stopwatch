@@ -1,6 +1,6 @@
 {
   "name": "@tsdotnet/stopwatch",
-  "version": "1.0.13",
+  "version": "1.0.14",
   "description": "A stopwatch class with lap timing and easy to use static methods.  Useful for diagnostics.",
   "author": "electricessence",
   "license": "MIT",
