@@ -1,24 +1,20 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-const tslib_1 = require("tslib");
+/* eslint-disable @typescript-eslint/no-this-alias */
 /*!
  * @author electricessence / https://github.com/electricessence/
  * @license MIT
  */
-const TimeSpan_1 = tslib_1.__importDefault(require("@tsdotnet/date-time/dist/TimeSpan"));
-class Stopwatch {
-    constructor() {
-        this._startTimeStamp = NaN;
-        this._elapsed = 0;
-        this._isRunning = false;
-    }
+import { TimeSpan } from '@tsdotnet/date-time';
+export default class Stopwatch {
+    _startTimeStamp = NaN;
+    _elapsed = 0;
     /**
      * The number of time elapsed while this Stopwatch is/was running.
      * @return {}
      */
     get elapsed() {
-        return TimeSpan_1.default.fromMilliseconds(this.elapsedMilliseconds);
+        return TimeSpan.fromMilliseconds(this.elapsedMilliseconds);
     }
+    _isRunning = false;
     /**
      * Returns true if the Stopwatch is currently active.
      * @return {boolean}
@@ -41,8 +37,8 @@ class Stopwatch {
      */
     get currentLap() {
         return this._isRunning
-            ? TimeSpan_1.default.fromMilliseconds(this.currentLapMilliseconds)
-            : TimeSpan_1.default.zero;
+            ? TimeSpan.fromMilliseconds(this.currentLapMilliseconds)
+            : TimeSpan.zero;
     }
     /**
      * The number of milliseconds elapsed while this Stopwatch is/was running.
@@ -79,7 +75,7 @@ class Stopwatch {
     static measure(closure) {
         const start = Date.now();
         closure();
-        return TimeSpan_1.default.fromMilliseconds(Date.now() - start);
+        return TimeSpan.fromMilliseconds(Date.now() - start);
     }
     /**
      * Starts this Stopwatch.
@@ -125,11 +121,10 @@ class Stopwatch {
             const e = t - s;
             _._startTimeStamp = t;
             _._elapsed += e;
-            return TimeSpan_1.default.fromMilliseconds(e);
+            return TimeSpan.fromMilliseconds(e);
         }
         else
-            return TimeSpan_1.default.zero;
+            return TimeSpan.zero;
     }
 }
-exports.default = Stopwatch;
 //# sourceMappingURL=Stopwatch.js.map

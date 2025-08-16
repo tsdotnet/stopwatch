@@ -2,8 +2,8 @@
  * @author electricessence / https://github.com/electricessence/
  * @license MIT
  */
-import TimeSpan from '@tsdotnet/date-time/dist/TimeSpan';
-import Timer from './Timer';
+import { TimeSpan } from '@tsdotnet/date-time';
+import type Timer from './Timer';
 export { Timer };
 export default class Stopwatch implements Timer {
     private _startTimeStamp;

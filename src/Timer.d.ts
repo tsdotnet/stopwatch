@@ -12,4 +12,5 @@ export default interface Timer
 	stop (): void;
 
 	reset (): void;
+// eslint-disable-next-line semi
 }

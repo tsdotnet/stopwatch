@@ -1,9 +1,12 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+/* eslint-disable @typescript-eslint/no-this-alias */
 /*!
  * @author electricessence / https://github.com/electricessence/
  * @license MIT
  */
-import TimeSpan from '@tsdotnet/date-time/dist/TimeSpan';
-export default class Stopwatch {
+const date_time_1 = require("@tsdotnet/date-time");
+class Stopwatch {
     constructor() {
         this._startTimeStamp = NaN;
         this._elapsed = 0;
@@ -14,7 +17,7 @@ export default class Stopwatch {
      * @return {}
      */
     get elapsed() {
-        return TimeSpan.fromMilliseconds(this.elapsedMilliseconds);
+        return date_time_1.TimeSpan.fromMilliseconds(this.elapsedMilliseconds);
     }
     /**
      * Returns true if the Stopwatch is currently active.
@@ -38,8 +41,8 @@ export default class Stopwatch {
      */
     get currentLap() {
         return this._isRunning
-            ? TimeSpan.fromMilliseconds(this.currentLapMilliseconds)
-            : TimeSpan.zero;
+            ? date_time_1.TimeSpan.fromMilliseconds(this.currentLapMilliseconds)
+            : date_time_1.TimeSpan.zero;
     }
     /**
      * The number of milliseconds elapsed while this Stopwatch is/was running.
@@ -76,7 +79,7 @@ export default class Stopwatch {
     static measure(closure) {
         const start = Date.now();
         closure();
-        return TimeSpan.fromMilliseconds(Date.now() - start);
+        return date_time_1.TimeSpan.fromMilliseconds(Date.now() - start);
     }
     /**
      * Starts this Stopwatch.
@@ -122,10 +125,11 @@ export default class Stopwatch {
             const e = t - s;
             _._startTimeStamp = t;
             _._elapsed += e;
-            return TimeSpan.fromMilliseconds(e);
+            return date_time_1.TimeSpan.fromMilliseconds(e);
         }
         else
-            return TimeSpan.zero;
+            return date_time_1.TimeSpan.zero;
     }
 }
+exports.default = Stopwatch;
 //# sourceMappingURL=Stopwatch.js.map
