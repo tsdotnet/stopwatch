@@ -75,7 +75,7 @@ describe('Stopwatch', () => {
 	describe('Lap functionality', () => {
 		it('should record lap times when running', async () => {
 			stopwatch.start();
-			await new Promise(resolve => setTimeout(resolve, 5));
+			await new Promise(resolve => setTimeout(resolve, 100));
 			
 			const lapTime = stopwatch.lap();
 			expect(lapTime).toBeInstanceOf(TimeSpan);
