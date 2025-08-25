@@ -501,8 +501,8 @@ packages:
   '@tsdotnet/common-interfaces@1.0.6':
     resolution: {integrity: sha512-JHyYznerNMxZD2jl1aUmrguw3ge0PzqQf6PyYdw9jAoPGuzKRDYX7fX4OK7LDdLBU3yaUdY5WXEqbvX5IgVCJA==}
 
-  '@tsdotnet/compare@1.7.3':
-    resolution: {integrity: sha512-5zJ7XQmEVKCieBKrNGAdxKoePTQTxryogXYjjxuc56tqfw6NCZnVMtRADeJYpnGW+swqQDlkeGlrEDz1rEBN2Q==}
+  '@tsdotnet/compare@1.7.4':
+    resolution: {integrity: sha512-u/rbc3Cw6MS3NxwiZ095OrvDxFQZzUsImMYlyrlVaXAr1HPwl4TleOaCjL+cVYECBEkq1eEwlXuxdZbsbvZRww==}
 
   '@tsdotnet/date-time@2.0.2':
     resolution: {integrity: sha512-bcQSZvkcSbThc7/QltPvUC86MbvU6A5wVeLG6ba7akrY+hMUd1wd8VltTfN9tgRvHroo3Udpln34roJrHq/lfQ==}
@@ -1782,7 +1782,7 @@ snapshots:
 
   '@tsdotnet/common-interfaces@1.0.6': {}
 
-  '@tsdotnet/compare@1.7.3':
+  '@tsdotnet/compare@1.7.4':
     dependencies:
       '@tsdotnet/common-interfaces': 1.0.6
       '@tsdotnet/type': 1.2.7
@@ -1790,7 +1790,7 @@ snapshots:
 
   '@tsdotnet/date-time@2.0.2':
     dependencies:
-      '@tsdotnet/compare': 1.7.3
+      '@tsdotnet/compare': 1.7.4
       '@tsdotnet/exceptions': 1.2.5
       '@tsdotnet/lazy': 2.0.1
       '@tsdotnet/type': 1.2.7
