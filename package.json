@@ -62,7 +62,7 @@
     "vitest": "^3.2.4"
   },
   "dependencies": {
-    "@tsdotnet/date-time": "^2.0.2",
+    "@tsdotnet/date-time": "^2.0.6",
     "tslib": "^2.8.1"
   },
   "pnpm": {
