@@ -1,5 +1,5 @@
 import { TimeSpan } from '@tsdotnet/date-time';
-import type Timer from './Timer';
+import type Timer from './Timer.js';
 export { Timer };
 export default class Stopwatch implements Timer {
     private _startTimeStamp;
