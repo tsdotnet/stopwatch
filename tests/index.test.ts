@@ -25,7 +25,7 @@ describe('Stopwatch', () => {
 
 		it('should reset correctly', async () => {
 			stopwatch.start();
-			await new Promise(resolve => setTimeout(resolve, 1));
+			await new Promise(resolve => setTimeout(resolve, 10));
 			stopwatch.stop();
 			expect(stopwatch.elapsedMilliseconds).toBeGreaterThan(0);
 			
