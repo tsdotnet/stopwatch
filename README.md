@@ -1,4 +1,4 @@
-![@tsdotnet/stopwatch: Time it, lap by lap. A small stopwatch for diagnostics.](https://cdn.jsdelivr.net/gh/tsdotnet/stopwatch@master/assets/banner.svg)
+<a href="https://tsdotnet.github.io/stopwatch/"><img src="https://cdn.jsdelivr.net/gh/tsdotnet/stopwatch@master/assets/banner.svg" alt="@tsdotnet/stopwatch: Time it, lap by lap. A small stopwatch for diagnostics."></a>
 
 [![npm version](https://img.shields.io/npm/v/@tsdotnet/stopwatch.svg?style=flat-square)](https://www.npmjs.com/package/@tsdotnet/stopwatch)
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](https://github.com/tsdotnet/stopwatch/blob/master/LICENSE)
